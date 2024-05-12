@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Dashboard</h1>
+        <div>
+            <label for="callTitle">Title:</label>
+            <input type="text" id="callTitle" placeholder="Enter Call Title">
+        </div>
+        <div>
+            <label for="callDetails">Details:</label>
+            <input type="text" id="callDetails" placeholder="Enter Call Details">
+        </div>
+        <div>
+            <label for="callLocation">Location:</label>
+            <input type="text" id="callLocation" placeholder="Enter Call Location">
+        </div>
+        <button onclick="addCall()">Add Call</button>
+        <hr>
+        <h2>Calls</h2>
+        <ul id="callList"></ul>
+        <h2>Units</h2>
+        <input type="text" id="unitName" placeholder="Enter Unit Name">
+        <button onclick="addUnit()">Add Unit</button> <!-- Corrected onclick event -->
+        <ul id="unitList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Dashboard</h1>
+        <div>
+            <label for="callTitle">Title:</label>
+            <input type="text" id="callTitle" placeholder="Enter Call Title">
+        </div>
+        <div>
+            <label for="callDetails">Details:</label>
+            <input type="text" id="callDetails" placeholder="Enter Call Details">
+        </div>
+        <div>
+            <label for="callLocation">Location:</label>
+            <input type="text" id="callLocation" placeholder="Enter Call Location">
+        </div>
+        <button onclick="addCall()">Add Call</button>
+        <hr>
+        <h2>Units</h2>
+        <input type="text" id="unitName" placeholder="Enter Unit Name">
+        <button onclick="addUnit()">Add Unit</button>
+        <ul id="unitList"></ul>
+        <hr> <!-- Divider -->
+        <h2>Active Calls</h2>
+        <ul id="callList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
